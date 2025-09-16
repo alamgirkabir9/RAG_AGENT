@@ -420,3 +420,4 @@ class Memory:
             "total_topic_mentions": sum(self.long_term_memory["topics_discussed"].values()),
             "memory_file_exists": os.path.exists(self.memory_file)
         }
+        
